@@ -2,7 +2,7 @@
   "name": "ecotrack",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vhnas.github.io/ecotrack-luma-startathon-2025",
+  "homepage": "https://victornascimento06.github.io/ecotrack",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
