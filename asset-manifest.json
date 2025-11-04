@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ecotrack-luma-startathon-2025/static/css/main.c66acc28.css",
+    "main.js": "/ecotrack-luma-startathon-2025/static/js/main.ecb1b8e7.js",
+    "static/js/453.ac7b6255.chunk.js": "/ecotrack-luma-startathon-2025/static/js/453.ac7b6255.chunk.js",
+    "index.html": "/ecotrack-luma-startathon-2025/index.html",
+    "main.c66acc28.css.map": "/ecotrack-luma-startathon-2025/static/css/main.c66acc28.css.map",
+    "main.ecb1b8e7.js.map": "/ecotrack-luma-startathon-2025/static/js/main.ecb1b8e7.js.map",
+    "453.ac7b6255.chunk.js.map": "/ecotrack-luma-startathon-2025/static/js/453.ac7b6255.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c66acc28.css",
+    "static/js/main.ecb1b8e7.js"
+  ]
+}
