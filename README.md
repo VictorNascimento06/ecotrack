@@ -51,7 +51,7 @@ src/
 
 ## Demo Online
 
-Acesse a demo em: [ecotrack-demo.com](https://vhnas.github.io/ecotrack-luma-startathon-2025)
+Acesse a demo em: https://victornascimento06.github.io/ecotrack/
 
 ## Contribuindo
 
