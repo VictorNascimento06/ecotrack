@@ -42,6 +42,80 @@ export const translations = {
         betaUsers: 'beta users já usando'
       }
     },
+    demo: {
+      title: 'EcoTrack Demo',
+      backToHome: 'Voltar',
+      createAccount: 'Criar Conta',
+      steps: {
+        welcome: {
+          title: 'Bem-vindo ao EcoTrack Demo!',
+          description: 'Vamos mostrar como é fácil acompanhar sua pegada de carbono',
+          mainTitle: 'Demonstração Interativa do EcoTrack',
+          subtitle: 'Explore todas as funcionalidades da nossa plataforma de monitoramento de pegada de carbono. Esta é uma demonstração com dados de exemplo.',
+          tip: '💡 Dica: Use as setas ou botões para navegar pela demo'
+        },
+        dashboard: {
+          title: 'Dashboard Principal',
+          description: 'Veja seus dados de emissão em tempo real',
+          mainTitle: 'Visão geral da sua pegada de carbono',
+          totalCO2: 'Total CO₂ (mês)',
+          transport: 'Transporte',
+          energy: 'Energia',
+          food: 'Alimentação',
+          chartTitle: 'Emissões por Categoria',
+          chartDescription: 'Gráfico interativo de emissões'
+        },
+        activities: {
+          title: 'Quick Actions',
+          description: 'Registre suas atividades rapidamente',
+          mainTitle: 'Registre suas atividades rapidamente',
+          transportCard: {
+            title: 'Transporte',
+            description: 'Registre viagens de carro, ônibus, avião...'
+          },
+          energyCard: {
+            title: 'Energia',
+            description: 'Monitore consumo de eletricidade, gás...'
+          },
+          foodCard: {
+            title: 'Alimentação',
+            description: 'Acompanhe impacto das suas refeições'
+          },
+          recentActivities: 'Atividades Recentes'
+        },
+        reports: {
+          title: 'Relatórios e Insights',
+          description: 'Analise seus dados e melhore sua pegada de carbono',
+          mainTitle: 'Analise seus dados e melhore sua pegada de carbono',
+          insightsTitle: 'Insights Personalizados',
+          goalsTitle: 'Metas de Redução',
+          multilingualTitle: 'Suporte Multilíngue',
+          multilingualDescription: 'O EcoTrack funciona em 5 idiomas para alcançar usuários globalmente:',
+          insights: {
+            tip: '💡 Dica: Seu transporte representa 57% das emissões. Considere usar transporte público ou bicicleta.',
+            congrats: '✅ Parabéns: Você reduziu 12% nas emissões de energia este mês!',
+            warning: '⚠️ Atenção: Consumo de energia aumentou 8% comparado ao mês passado.'
+          },
+          goals: {
+            monthlyGoal: 'Meta mensal: -15%',
+            monthlyProgress: '8% alcançado',
+            yearlyGoal: 'Meta anual: -30%',
+            yearlyProgress: '12% alcançado'
+          }
+        }
+      },
+      navigation: {
+        previous: 'Anterior',
+        next: 'Próximo',
+        startNow: 'Começar Agora',
+        stepCounter: 'de'
+      },
+      mockData: {
+        carTrip: 'Viagem de carro (50km)',
+        energyConsumption: 'Consumo residencial (300 kWh)',
+        beefMeal: 'Almoço com carne bovina'
+      }
+    },
     auth: {
       register: {
         title: 'Criar conta no EcoTrack',
@@ -310,6 +384,80 @@ export const translations = {
         wantSustainable: 'das pessoas querem ser mais sustentáveis',
         knowHow: 'sabem como medir o seu impacto',
         betaUsers: 'utilizadores beta já a usar'
+      }
+    },
+    demo: {
+      title: 'EcoTrack Demo',
+      backToHome: 'Voltar',
+      createAccount: 'Criar Conta',
+      steps: {
+        welcome: {
+          title: 'Bem-vindo ao EcoTrack Demo!',
+          description: 'Vamos mostrar como é fácil acompanhar a sua pegada de carbono',
+          mainTitle: 'Demonstração Interactiva do EcoTrack',
+          subtitle: 'Explore todas as funcionalidades da nossa plataforma de monitorização de pegada de carbono. Esta é uma demonstração com dados de exemplo.',
+          tip: '💡 Dica: Use as setas ou botões para navegar pela demo'
+        },
+        dashboard: {
+          title: 'Painel Principal',
+          description: 'Veja os seus dados de emissão em tempo real',
+          mainTitle: 'Visão geral da sua pegada de carbono',
+          totalCO2: 'Total CO₂ (mês)',
+          transport: 'Transporte',
+          energy: 'Energia',
+          food: 'Alimentação',
+          chartTitle: 'Emissões por Categoria',
+          chartDescription: 'Gráfico interactivo de emissões'
+        },
+        activities: {
+          title: 'Acções Rápidas',
+          description: 'Registe as suas actividades rapidamente',
+          mainTitle: 'Registe as suas actividades rapidamente',
+          transportCard: {
+            title: 'Transporte',
+            description: 'Registe viagens de carro, autocarro, avião...'
+          },
+          energyCard: {
+            title: 'Energia',
+            description: 'Monitorize consumo de electricidade, gás...'
+          },
+          foodCard: {
+            title: 'Alimentação',
+            description: 'Acompanhe impacto das suas refeições'
+          },
+          recentActivities: 'Actividades Recentes'
+        },
+        reports: {
+          title: 'Relatórios e Insights',
+          description: 'Analise os seus dados e melhore a sua pegada de carbono',
+          mainTitle: 'Analise os seus dados e melhore a sua pegada de carbono',
+          insightsTitle: 'Insights Personalizados',
+          goalsTitle: 'Metas de Redução',
+          multilingualTitle: 'Suporte Multilíngue',
+          multilingualDescription: 'O EcoTrack funciona em 5 idiomas para alcançar utilizadores globalmente:',
+          insights: {
+            tip: '💡 Dica: O seu transporte representa 57% das emissões. Considere usar transporte público ou bicicleta.',
+            congrats: '✅ Parabéns: Reduziu 12% nas emissões de energia este mês!',
+            warning: '⚠️ Atenção: Consumo de energia aumentou 8% comparado ao mês passado.'
+          },
+          goals: {
+            monthlyGoal: 'Meta mensal: -15%',
+            monthlyProgress: '8% alcançado',
+            yearlyGoal: 'Meta anual: -30%',
+            yearlyProgress: '12% alcançado'
+          }
+        }
+      },
+      navigation: {
+        previous: 'Anterior',
+        next: 'Seguinte',
+        startNow: 'Começar Agora',
+        stepCounter: 'de'
+      },
+      mockData: {
+        carTrip: 'Viagem de carro (50km)',
+        energyConsumption: 'Consumo residencial (300 kWh)',
+        beefMeal: 'Almoço com carne bovina'
       }
     },
     auth: {
@@ -582,6 +730,80 @@ export const translations = {
         betaUsers: 'beta users already using'
       }
     },
+    demo: {
+      title: 'EcoTrack Demo',
+      backToHome: 'Back',
+      createAccount: 'Create Account',
+      steps: {
+        welcome: {
+          title: 'Welcome to EcoTrack Demo!',
+          description: 'Let\'s show you how easy it is to track your carbon footprint',
+          mainTitle: 'Interactive EcoTrack Demonstration',
+          subtitle: 'Explore all the features of our carbon footprint monitoring platform. This is a demonstration with sample data.',
+          tip: '💡 Tip: Use the arrows or buttons to navigate through the demo'
+        },
+        dashboard: {
+          title: 'Main Dashboard',
+          description: 'See your real-time emission data',
+          mainTitle: 'Overview of your carbon footprint',
+          totalCO2: 'Total CO₂ (month)',
+          transport: 'Transport',
+          energy: 'Energy',
+          food: 'Food',
+          chartTitle: 'Emissions by Category',
+          chartDescription: 'Interactive emissions chart'
+        },
+        activities: {
+          title: 'Quick Actions',
+          description: 'Register your activities quickly',
+          mainTitle: 'Register your activities quickly',
+          transportCard: {
+            title: 'Transport',
+            description: 'Register car, bus, plane trips...'
+          },
+          energyCard: {
+            title: 'Energy',
+            description: 'Monitor electricity, gas consumption...'
+          },
+          foodCard: {
+            title: 'Food',
+            description: 'Track the impact of your meals'
+          },
+          recentActivities: 'Recent Activities'
+        },
+        reports: {
+          title: 'Reports and Insights',
+          description: 'Analyze your data and improve your carbon footprint',
+          mainTitle: 'Analyze your data and improve your carbon footprint',
+          insightsTitle: 'Personalized Insights',
+          goalsTitle: 'Reduction Goals',
+          multilingualTitle: 'Multilingual Support',
+          multilingualDescription: 'EcoTrack works in 5 languages to reach users globally:',
+          insights: {
+            tip: '💡 Tip: Your transport represents 57% of emissions. Consider using public transport or bicycle.',
+            congrats: '✅ Congratulations: You reduced 12% in energy emissions this month!',
+            warning: '⚠️ Warning: Energy consumption increased 8% compared to last month.'
+          },
+          goals: {
+            monthlyGoal: 'Monthly goal: -15%',
+            monthlyProgress: '8% achieved',
+            yearlyGoal: 'Yearly goal: -30%',
+            yearlyProgress: '12% achieved'
+          }
+        }
+      },
+      navigation: {
+        previous: 'Previous',
+        next: 'Next',
+        startNow: 'Start Now',
+        stepCounter: 'of'
+      },
+      mockData: {
+        carTrip: 'Car trip (50km)',
+        energyConsumption: 'Home consumption (300 kWh)',
+        beefMeal: 'Lunch with beef'
+      }
+    },
     auth: {
       register: {
         title: 'Create EcoTrack account',
@@ -852,6 +1074,80 @@ export const translations = {
         betaUsers: 'usuarios beta ya usando'
       }
     },
+    demo: {
+      title: 'EcoTrack Demo',
+      backToHome: 'Volver',
+      createAccount: 'Crear Cuenta',
+      steps: {
+        welcome: {
+          title: '¡Bienvenido a EcoTrack Demo!',
+          description: 'Te mostraremos qué fácil es hacer seguimiento de tu huella de carbono',
+          mainTitle: 'Demostración Interactiva de EcoTrack',
+          subtitle: 'Explora todas las funcionalidades de nuestra plataforma de monitoreo de huella de carbono. Esta es una demostración con datos de ejemplo.',
+          tip: '💡 Consejo: Usa las flechas o botones para navegar por la demo'
+        },
+        dashboard: {
+          title: 'Panel Principal',
+          description: 'Ve tus datos de emisión en tiempo real',
+          mainTitle: 'Resumen de tu huella de carbono',
+          totalCO2: 'Total CO₂ (mes)',
+          transport: 'Transporte',
+          energy: 'Energía',
+          food: 'Alimentación',
+          chartTitle: 'Emisiones por Categoría',
+          chartDescription: 'Gráfico interactivo de emisiones'
+        },
+        activities: {
+          title: 'Acciones Rápidas',
+          description: 'Registra tus actividades rápidamente',
+          mainTitle: 'Registra tus actividades rápidamente',
+          transportCard: {
+            title: 'Transporte',
+            description: 'Registra viajes en coche, autobús, avión...'
+          },
+          energyCard: {
+            title: 'Energía',
+            description: 'Monitorea consumo de electricidad, gas...'
+          },
+          foodCard: {
+            title: 'Alimentación',
+            description: 'Rastrea el impacto de tus comidas'
+          },
+          recentActivities: 'Actividades Recientes'
+        },
+        reports: {
+          title: 'Reportes e Insights',
+          description: 'Analiza tus datos y mejora tu huella de carbono',
+          mainTitle: 'Analiza tus datos y mejora tu huella de carbono',
+          insightsTitle: 'Insights Personalizados',
+          goalsTitle: 'Metas de Reducción',
+          multilingualTitle: 'Soporte Multilingüe',
+          multilingualDescription: 'EcoTrack funciona en 5 idiomas para alcanzar usuarios globalmente:',
+          insights: {
+            tip: '💡 Consejo: Tu transporte representa 57% de las emisiones. Considera usar transporte público o bicicleta.',
+            congrats: '✅ ¡Felicidades: Redujiste 12% en emisiones de energía este mes!',
+            warning: '⚠️ Atención: El consumo de energía aumentó 8% comparado al mes pasado.'
+          },
+          goals: {
+            monthlyGoal: 'Meta mensual: -15%',
+            monthlyProgress: '8% logrado',
+            yearlyGoal: 'Meta anual: -30%',
+            yearlyProgress: '12% logrado'
+          }
+        }
+      },
+      navigation: {
+        previous: 'Anterior',
+        next: 'Siguiente',
+        startNow: 'Empezar Ahora',
+        stepCounter: 'de'
+      },
+      mockData: {
+        carTrip: 'Viaje en coche (50km)',
+        energyConsumption: 'Consumo residencial (300 kWh)',
+        beefMeal: 'Almuerzo con carne de res'
+      }
+    },
     auth: {
       register: {
         title: 'Crear cuenta en EcoTrack',
@@ -1120,6 +1416,80 @@ export const translations = {
         wantSustainable: 'des personnes veulent être plus durables',
         knowHow: 'savent comment mesurer leur impact',
         betaUsers: 'utilisateurs bêta utilisent déjà'
+      }
+    },
+    demo: {
+      title: 'EcoTrack Démo',
+      backToHome: 'Retour',
+      createAccount: 'Créer un Compte',
+      steps: {
+        welcome: {
+          title: 'Bienvenue à EcoTrack Démo!',
+          description: 'Nous allons vous montrer comme c\'est facile de suivre votre empreinte carbone',
+          mainTitle: 'Démonstration Interactive d\'EcoTrack',
+          subtitle: 'Explorez toutes les fonctionnalités de notre plateforme de surveillance d\'empreinte carbone. Ceci est une démonstration avec des données d\'exemple.',
+          tip: '💡 Astuce: Utilisez les flèches ou boutons pour naviguer dans la démo'
+        },
+        dashboard: {
+          title: 'Tableau de Bord Principal',
+          description: 'Voyez vos données d\'émission en temps réel',
+          mainTitle: 'Aperçu de votre empreinte carbone',
+          totalCO2: 'Total CO₂ (mois)',
+          transport: 'Transport',
+          energy: 'Énergie',
+          food: 'Alimentation',
+          chartTitle: 'Émissions par Catégorie',
+          chartDescription: 'Graphique interactif d\'émissions'
+        },
+        activities: {
+          title: 'Actions Rapides',
+          description: 'Enregistrez vos activités rapidement',
+          mainTitle: 'Enregistrez vos activités rapidement',
+          transportCard: {
+            title: 'Transport',
+            description: 'Enregistrez voyages en voiture, bus, avion...'
+          },
+          energyCard: {
+            title: 'Énergie',
+            description: 'Surveillez consommation d\'électricité, gaz...'
+          },
+          foodCard: {
+            title: 'Alimentation',
+            description: 'Suivez l\'impact de vos repas'
+          },
+          recentActivities: 'Activités Récentes'
+        },
+        reports: {
+          title: 'Rapports et Insights',
+          description: 'Analysez vos données et améliorez votre empreinte carbone',
+          mainTitle: 'Analysez vos données et améliorez votre empreinte carbone',
+          insightsTitle: 'Insights Personnalisés',
+          goalsTitle: 'Objectifs de Réduction',
+          multilingualTitle: 'Support Multilingue',
+          multilingualDescription: 'EcoTrack fonctionne en 5 langues pour atteindre les utilisateurs globalement:',
+          insights: {
+            tip: '💡 Astuce: Votre transport représente 57% des émissions. Considérez utiliser les transports publics ou le vélo.',
+            congrats: '✅ Félicitations: Vous avez réduit 12% des émissions d\'énergie ce mois!',
+            warning: '⚠️ Attention: La consommation d\'énergie a augmenté de 8% par rapport au mois dernier.'
+          },
+          goals: {
+            monthlyGoal: 'Objectif mensuel: -15%',
+            monthlyProgress: '8% atteint',
+            yearlyGoal: 'Objectif annuel: -30%',
+            yearlyProgress: '12% atteint'
+          }
+        }
+      },
+      navigation: {
+        previous: 'Précédent',
+        next: 'Suivant',
+        startNow: 'Commencer Maintenant',
+        stepCounter: 'de'
+      },
+      mockData: {
+        carTrip: 'Voyage en voiture (50km)',
+        energyConsumption: 'Consommation résidentielle (300 kWh)',
+        beefMeal: 'Déjeuner avec bœuf'
       }
     },
     auth: {

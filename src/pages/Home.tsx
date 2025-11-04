@@ -15,6 +15,10 @@ const Home: React.FC = () => {
     navigate('/login');
   };
 
+  const handleDemoClick = () => {
+    navigate('/demo');
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 to-primary-100">
       {/* Navigation */}
@@ -63,7 +67,10 @@ const Home: React.FC = () => {
             >
               {t('home.startFree')}
             </button>
-            <button className="w-full md:w-auto border-2 border-primary-500 text-primary-600 hover:bg-primary-50 px-8 py-4 rounded-xl text-lg font-semibold transition-colors">
+            <button 
+              onClick={handleDemoClick}
+              className="w-full md:w-auto border-2 border-primary-500 text-primary-600 hover:bg-primary-50 px-8 py-4 rounded-xl text-lg font-semibold transition-colors"
+            >
               {t('home.viewDemo')}
             </button>
           </div>

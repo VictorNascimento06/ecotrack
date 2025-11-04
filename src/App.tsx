@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
+import Demo from './pages/Demo';
 import ProtectedRoute from './components/Common/ProtectedRoute';
 
 const AppRoutes: React.FC = () => {
@@ -14,6 +15,7 @@ const AppRoutes: React.FC = () => {
     <Routes>
       {/* Public routes */}
       <Route path="/" element={user ? <Navigate to="/dashboard" replace /> : <Home />} />
+      <Route path="/demo" element={<Demo />} />
       <Route path="/register" element={user ? <Navigate to="/dashboard" replace /> : <Register />} />
       <Route path="/login" element={user ? <Navigate to="/dashboard" replace /> : <Login />} />
       
